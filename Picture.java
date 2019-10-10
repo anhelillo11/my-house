@@ -57,6 +57,7 @@ public class Picture
         sun.changeSize(80);
         sun.makeVisible();
         sun.slowMoveVertical(-100);
+       
         
            
         verde = new Square(); 
@@ -94,5 +95,17 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+    public void atardecer()
+    {
+        sun.slowMoveVertical(100);
+        
+        
+        
+        
+        
+        
+        
+        
     }
 }
